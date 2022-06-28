@@ -2,6 +2,9 @@
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -14,6 +17,7 @@
     "react-scripts": "^4.0.3",
     "react-top-loading-bar": "^2.0.1",
     "web-vitals": "^1.1.2"
+
   },
   "scripts": {
     "start": "react-scripts start",
